@@ -205,8 +205,8 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "imageAlt",
-        "label": "Alt",
+        "name": "header",
+        "label": "Header",
         "value": ""
       },
       {
