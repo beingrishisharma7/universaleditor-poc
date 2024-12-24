@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p51328-e442308.adobeaemcloud.com/bin/franklin.delivery/beingrishisharma7/universaleditor-poc/main"
+    url: "https://author-p51328-e442308.adobeaemcloud.com/bin/franklin.delivery/beingrishisharma7/eds-poc---universaleditor/main"
     type: "markup"
     suffix: ".html"
