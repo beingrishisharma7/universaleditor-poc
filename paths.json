@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/universaleditor-poc/:/",
-    "/content/universaleditor-poc/configuration:/.helix/config.json",
-    "/content/universaleditor-poc/metadata:/metadata.json"
+    "/content/eds-poc---universaleditor/:/",
+    "/content/eds-poc---universaleditor/configuration:/.helix/config.json",
+    "/content/eds-poc---universaleditor/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/universaleditor-poc/"
+    "/content/eds-poc---universaleditor/"
   ]
 }
