@@ -144,7 +144,33 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "value": "",
+        "label": "Article Background Color",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "default",
+            "value": "bg-default"
+          },
+          {
+            "name": "Red",
+            "value": "article-red"
+          },
+          {
+            "name": "Green",
+            "value": "bg-green"
+          },
+          {
+            "name": "Blue",
+            "value": "bg-blue"
+          }
+        ]
       }
+      
     ]
   },
   {
