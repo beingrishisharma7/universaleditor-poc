@@ -92,6 +92,23 @@
             "value": "secondary"
           }
         ]
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "value": "",
+        "label": "Check Color",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "default",
+            "value": "bg-default"
+          },
+          {
+            "name": "check",
+            "value": "check-class"
+          }
+        ]
       }
     ]
   },
