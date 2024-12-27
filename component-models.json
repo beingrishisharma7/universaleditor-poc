@@ -306,44 +306,50 @@
     "id": "carousel",
     "fields": [
       {
-        "component": "list",
-        "valueType": "object",
+        "component": "image-picker",
+        "label": "Carousel Slides",
         "name": "slides",
-        "label": "Slides",
-        "multi": true,
+        "type": "array",
+        "description": "Select images and optionally add captions for the carousel slides.",
+        "itemType": "object",
         "fields": [
           {
-            "component": "reference",
-            "valueType": "string",
+            "component": "image-picker",
+            "label": "Slide Image",
             "name": "image",
-            "label": "Image",
-            "multi": false
+            "type": "asset",
+            "description": "The image for this slide.",
+            "required": true
           },
           {
-            "component": "text",
-            "valueType": "string",
-            "name": "title",
-            "label": "Title",
-            "multi": false
-          },
-          {
-            "component": "text",
-            "valueType": "string",
-            "name": "description",
-            "label": "Description",
-            "multi": false
-          },
-          {
-            "component": "reference",
-            "valueType": "string",
-            "name": "link",
-            "label": "Link",
-            "multi": false
+            "component": "text-input",
+            "label": "Alt Text",
+            "name": "altText",
+            "type": "string",
+            "description": "Accessibility text for the image.",
+            "required": true
           }
         ]
+      },
+      {
+        "component": "switch",
+        "label": "Show Navigation",
+        "name": "navigation",
+        "type": "boolean",
+        "description": "Should navigation buttons (next/prev) be displayed?",
+        "default": true
+      },
+      {
+        "component": "switch",
+        "label": "Show Indicators",
+        "name": "indicators",
+        "type": "boolean",
+        "description": "Should slide indicators (dots) be displayed?",
+        "default": true
       }
     ]
   }
+  
   
   
 ]
