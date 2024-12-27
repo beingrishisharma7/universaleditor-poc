@@ -301,6 +301,17 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "carousel",
+    "fields": [
+      {
+        "component": "reference",
+        "label": "carousel",
+        "name": "carousel",
+        "valueType": "string"
+      }
+    ]
   }
   
 ]
