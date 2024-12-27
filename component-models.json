@@ -306,7 +306,7 @@
     "id": "carousel",
     "fields": [
       {
-        "component": "image-picker",
+        "component": "reference",
         "label": "Carousel Slides",
         "name": "slides",
         "type": "array",
@@ -314,7 +314,7 @@
         "itemType": "object",
         "fields": [
           {
-            "component": "image-picker",
+            "component": "reference",
             "label": "Slide Image",
             "name": "image",
             "type": "asset",
