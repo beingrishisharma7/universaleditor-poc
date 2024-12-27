@@ -306,12 +306,44 @@
     "id": "carousel",
     "fields": [
       {
-        "component": "reference",
-        "label": "carousel",
-        "name": "carousel",
-        "valueType": "string"
+        "component": "list",
+        "valueType": "object",
+        "name": "slides",
+        "label": "Slides",
+        "multi": true,
+        "fields": [
+          {
+            "component": "reference",
+            "valueType": "string",
+            "name": "image",
+            "label": "Image",
+            "multi": false
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "title",
+            "label": "Title",
+            "multi": false
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "description",
+            "label": "Description",
+            "multi": false
+          },
+          {
+            "component": "reference",
+            "valueType": "string",
+            "name": "link",
+            "label": "Link",
+            "multi": false
+          }
+        ]
       }
     ]
   }
+  
   
 ]
