@@ -188,21 +188,6 @@
               }
             }
           }
-        },
-        {
-          "title": "Carousel",
-          "id": "carousel",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/carousel/v1/carousel",
-                "template": {
-                  "name": "carousel",
-                  "model": "carousel"
-                }
-              }
-            }
-          }
         }
         
 

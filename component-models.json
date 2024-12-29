@@ -301,53 +301,6 @@
         "valueType": "string"
       }
     ]
-  },
-  {
-    "id": "carousel",
-    "fields": [
-      {
-        "component": "reference",
-        "label": "Carousel Slides",
-        "name": "slides",
-        "type": "array",
-        "description": "Select images and optionally add captions for the carousel slides.",
-        "itemType": "object",
-        "fields": [
-          {
-            "component": "reference",
-            "label": "Slide Image",
-            "name": "image",
-            "type": "asset",
-            "description": "The image for this slide.",
-            "required": true
-          },
-          {
-            "component": "text-input",
-            "label": "Alt Text",
-            "name": "altText",
-            "type": "string",
-            "description": "Accessibility text for the image.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "component": "switch",
-        "label": "Show Navigation",
-        "name": "navigation",
-        "type": "boolean",
-        "description": "Should navigation buttons (next/prev) be displayed?",
-        "default": true
-      },
-      {
-        "component": "switch",
-        "label": "Show Indicators",
-        "name": "indicators",
-        "type": "boolean",
-        "description": "Should slide indicators (dots) be displayed?",
-        "default": true
-      }
-    ]
   }
   
   
