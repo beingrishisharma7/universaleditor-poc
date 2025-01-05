@@ -301,7 +301,131 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "carousel",
+    "fields": [
+      {
+        "component": "text",
+        "name": "carouselTitle",
+        "value": "",
+        "label": "Carousel Title",
+        "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "carouselTitleType",
+        "value": "h3",
+        "label": "Carousel Title Type",
+        "options": [
+          {
+            "name": "h1",
+            "value": "h1"
+          },
+          {
+            "name": "h2",
+            "value": "h2"
+          },
+          {
+            "name": "h3",
+            "value": "h3"
+          },
+          {
+            "name": "h4",
+            "value": "h4"
+          },
+          {
+            "name": "h5",
+            "value": "h5"
+          },
+          {
+            "name": "h6",
+            "value": "h6"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "name": "previousSlideText",
+        "value": "Previous Slide",
+        "label": "Previous Slide Button Text",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "nextSlideText",
+        "value": "Next Slide",
+        "label": "Next Slide Button Text",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "showSlideText",
+        "value": "Show Slide",
+        "label": "Show Slide Button Text",
+        "valueType": "string"
+      },
+      {
+        "component": "boolean",
+        "name": "loop",
+        "value": false,
+        "label": "Loop Carousel",
+        "description": "Enable continuous looping of slides"
+      },
+      {
+        "component": "boolean",
+        "name": "autoplay",
+        "value": false,
+        "label": "Autoplay Carousel",
+        "description": "Enable autoplay for the carousel"
+      },
+      {
+        "component": "number",
+        "name": "autoplayInterval",
+        "value": 5000,
+        "label": "Autoplay Interval",
+        "description": "Time in milliseconds between automatic slides transitions",
+        "valueType": "long"
+      },
+      {
+        "component": "list",
+        "name": "carouselSlides",
+        "label": "Carousel Slides",
+        "multi": true,
+        "fields": [
+          {
+            "component": "reference",
+            "valueType": "string",
+            "name": "slide_image",
+            "label": "Slide Image",
+            "multi": false
+          },
+          {
+            "component": "text",
+            "name": "slide_imageAlt",
+            "value": "",
+            "label": "Image Alt Text",
+            "valueType": "string"
+          },
+          {
+            "component": "text",
+            "name": "slide_title",
+            "value": "",
+            "label": "Slide Title",
+            "valueType": "string"
+          },
+          {
+            "component": "text",
+            "name": "slide_description",
+            "value": "",
+            "label": "Slide Description",
+            "valueType": "string"
+          }
+        ]
+      }
+    ]
   }
+  
   
   
   
