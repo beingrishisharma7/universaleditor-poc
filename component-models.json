@@ -313,14 +313,6 @@
         "valueType": "string"
       },
       {
-        "component": "number",
-        "name": "autoplayInterval",
-        "value": 5000,
-        "label": "Autoplay Interval",
-        "description": "Time in milliseconds between automatic slides transitions",
-        "valueType": "long"
-      },
-      {
         "component": "list",
         "name": "carouselSlides",
         "label": "Carousel Slides",
@@ -353,6 +345,12 @@
             "value": "",
             "label": "Slide Description",
             "valueType": "string"
+          },
+          {
+            "component": "reference",
+            "name": "image",
+            "label": "Image",
+            "multi": true
           }
         ]
       }
